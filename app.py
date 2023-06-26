@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Redirect to Google after 5 seconds")
 
 st.markdown("""
-<div>
+<div onload="alert('foo')">
     <p>Lorem ipsum</p>
     <script>
     console.log("The JavaScript code is executed!");
